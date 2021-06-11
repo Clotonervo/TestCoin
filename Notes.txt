@@ -1,0 +1,8 @@
+Notes to help guide me during development
+
+For reference, check out https://github.com/Pigeoncoin/pigeoncoin commits for more indepth guidance on how they forked Raven
+
+Lots of good stuff in chainparams.cpp:
+    Genesis stuff
+    parameters (how many coins, how often, etc)
+
