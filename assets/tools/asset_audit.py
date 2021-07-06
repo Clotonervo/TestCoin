@@ -24,7 +24,7 @@ import logging
 cli = "raven-cli"
 
 mode = "-main"
-rpc_port = 8766
+rpc_port = 8746
 
 #mode = "-testnet"
 #rpc_port = 18770

@@ -70,7 +70,7 @@ The same notification can be specified more than once.
 
 For instance:
 
-    $ ravend -zmqpubhashtx=tcp://127.0.0.1:28766 \
+    $ ravend -zmqpubhashtx=tcp://127.0.0.1:28746 \
                -zmqpubrawtx=ipc:///tmp/ravend.tx.raw
 
 Each PUB notification has a topic and body, where the header

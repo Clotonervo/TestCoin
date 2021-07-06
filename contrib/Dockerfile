@@ -3,8 +3,8 @@ FROM amd64/ubuntu:18.04 AS base
 #If you found this docker image helpful please donate RVN to the maintainer
 LABEL maintainer="RV9zdNeUTQUToZUcRp9uNF8gwH5LzDFtan"
 
-EXPOSE 8766/tcp
-EXPOSE 8767/tcp
+EXPOSE 8746/tcp
+EXPOSE 8747/tcp
 
 ENV DEBIAN_FRONTEND=noninteractive
 
