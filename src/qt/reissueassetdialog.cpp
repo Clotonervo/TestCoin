@@ -726,7 +726,7 @@ void ReissueAssetDialog::onAssetSelected(int index)
         ui->unitSpinBox->setValue(asset->units);
         ui->unitSpinBox->setMinimum(asset->units);
 
-        ui->quantitySpinBox->setMaximum(21000000000 - value.get_real());
+        ui->quantitySpinBox->setMaximum(21000000000000 - value.get_real());
 
         ui->currentAssetData->clear();
         // Create the QString to display to the user
