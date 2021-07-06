@@ -181,7 +181,7 @@ public:
         nDefaultPort = 8747;
         nPruneAfterHeight = 100000;
 
-        genesis = CreateGenesisBlock(1514999494, 25023712, 0x1e00ffff, 4, 5000 * COIN);
+        genesis = CreateGenesisBlock(1514999494, 25023712, 0x1e00ffff, 4, 50000 * COIN);
 
         consensus.hashGenesisBlock = genesis.GetX16RHash();
 
@@ -354,7 +354,7 @@ public:
 //        uint256 TempHashHolding = uint256S("0x0000000000000000000000000000000000000000000000000000000000000000");
 //        uint256 BestBlockHash = uint256S("0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
 //        for (int i=0;i<40000000;i++) {
-//            genesis = CreateGenesisBlock(nGenesisTime, i, 0x1e00ffff, 2, 5000 * COIN);
+//            genesis = CreateGenesisBlock(nGenesisTime, i, 0x1e00ffff, 2, 50000 * COIN);
 //            //genesis.hashPrevBlock = TempHashHolding;
 //            // Depending on when the timestamp is on the genesis block. You will need to use GetX16RHash or GetX16RV2Hash. Replace GetHash() with these below
 //            consensus.hashGenesisBlock = genesis.GetHash();
@@ -401,7 +401,7 @@ public:
 
 //        /////////////////////////////////////////////////////////////////
 
-        genesis = CreateGenesisBlock(nGenesisTime, 15615880, 0x1e00ffff, 2, 5000 * COIN);
+        genesis = CreateGenesisBlock(nGenesisTime, 15615880, 0x1e00ffff, 2, 50000 * COIN);
         consensus.hashGenesisBlock = genesis.GetX16RHash();
 
         //Test MerkleRoot and GenesisBlock
@@ -571,7 +571,7 @@ public:
 //        uint256 TempHashHolding = uint256S("0x0000000000000000000000000000000000000000000000000000000000000000");
 //        uint256 BestBlockHash = uint256S("0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
 //        for (int i=0;i<40000000;i++) {
-//            genesis = CreateGenesisBlock(1533751200, i, 0x207fffff, 2, 5000 * COIN);
+//            genesis = CreateGenesisBlock(1533751200, i, 0x207fffff, 2, 50000 * COIN);
 //            //genesis.hashPrevBlock = TempHashHolding;
 //            consensus.hashGenesisBlock = genesis.GetHash();
 //
@@ -618,7 +618,7 @@ public:
 //        /////////////////////////////////////////////////////////////////
 
 
-        genesis = CreateGenesisBlock(1524179366, 1, 0x207fffff, 4, 5000 * COIN);
+        genesis = CreateGenesisBlock(1524179366, 1, 0x207fffff, 4, 50000 * COIN);
         consensus.hashGenesisBlock = genesis.GetX16RHash();
 
         assert(consensus.hashGenesisBlock == uint256S("0x0b2c703dc93bb63a36c4e33b85be4855ddbca2ac951a7a0a29b8de0408200a3c "));
